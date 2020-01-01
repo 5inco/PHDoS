@@ -81,20 +81,20 @@ def usage():
  |_|   |_| |_|     |____/ \___/____/ 
                     Attack Tool v1.1 \033[0m''')
 	
-print (''' \033[91m
-Your IP is visible.
-You need to ACTIVATE YOUR VPN FIRST,
-I am not responsible for your action,
-This is for educational purposes only. \n \033[0m''')
-print (''' \033[33m
-USAGE : python3 phdos.py -s xxx.xx.xxx.xxx -p 80 -t 135 \033[0m''')
-print (''' \033[37m
--h : help
--s : server ip
--p : port default 80
--t : turbo default 135
--ctrl+c: to stop \033[0m''')
-sys.exit() 
+	print (''' \033[91m
+	Your IP is visible.
+	You need to ACTIVATE YOUR VPN FIRST,
+	I am not responsible for your action,
+	This is for educational purposes only. \n \033[0m''')
+	print (''' \033[33m
+	USAGE : python3 phdos.py -s xxx.xx.xxx.xxx -p 80 -t 135 \033[0m''')
+	print (''' \033[37m
+	-h : help
+	-s : server ip
+	-p : port default 80
+	-t : turbo default 135
+	-ctrl+c: to stop \033[0m''')
+	sys.exit() 
 
 
 def get_parameters():
