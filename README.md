@@ -1,5 +1,5 @@
 Kali & Termux Compatible<br>
-Requirements:
+Requirements:<br>
 $ apt update<br>
 $ apt upgrade<br>
 $ apt install python<br>
