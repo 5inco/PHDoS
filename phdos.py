@@ -81,12 +81,14 @@ def usage():
  |_|   |_| |_|     |____/ \___/____/ 
                     Attack Tool v1.1 \033[0m''')
 	
-	print (''' \033[37m
+	print (''' \033[91m
 	Your IP is visible.
-	You need to ACTIVATE YOUR VPN FIRST before using,
+	You need to ACTIVATE YOUR VPN FIRST,
 	I am not responsible for your action,
-	This is for educational purposes only. \n
-	USAGE : python3 phdos.py [-s] [-p] [-t]
+	This is for educational purposes only. \n \033[0m''')
+	print (''' \033[33m
+	USAGE : python3 phdos.py [-s] [-p] [-t] \033[0m''')
+	print (''' \033[37m
 	-h : help
 	-s : server ip
 	-p : port default 80
