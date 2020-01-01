@@ -21,5 +21,5 @@ $ cd PHDoS/<br>
 $ ls<br>
 $ python3 phdos.py -s [Victim ip Address] -p 80 -t 135<br>
 example:<br>
-$ python3 phdos.py -s 35.240.181.176 -p 80 -t 135<br>
+$ python3 phdos.py -s xx.xxx.xxx.xxx -p 80 -t 135<br>
 
