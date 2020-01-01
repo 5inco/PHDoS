@@ -13,7 +13,7 @@ First you need to activate a vpn to change your ip
 
 You need the <b>IP Address</b> of a website which you want to attack...<br>
 New Terminal just type:<br>
-$ <b>nslookup victimewebsite.com<b><br>
+$ <b>nslookup victimwebsite.com<b><br>
 Get the IP Address of a victim website<br>
 
 Installation & Usage:<br>
