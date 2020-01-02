@@ -23,3 +23,5 @@ $ python3 phdos.py -s [Victim ip Address] -p 80 -t 135<br>
 example:<br>
 $ python3 phdos.py -s xx.xxx.xxx.xxx -p 80 -t 135<br>
 
+Youtube Video Tutorial: https://youtu.be/jA4Ecnm6WEk
+
