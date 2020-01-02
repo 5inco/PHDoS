@@ -7,13 +7,14 @@ $ apt install python2<br>
 $ apt install python3<br>
 $ apt install git<br>
 $ apt install dnsutils<br>
-$ git clone https://github.com/5inco/PHDoS
+$ git clone https://github.com/5inco/PHDoS<br>
 
-First you need to activate a vpn to change your ip
+First you need to activate a vpn to change your ip<br>
 
 You need the <b>IP Address</b> of a website which you want to attack...<br>
 New Terminal just type:<br>
-$ <b>nslookup victimwebsite.com<b><br>
+$ nslookup victimwebsite.com<br>
+
 Get the IP Address of a victim website<br>
 
 <b>Installation & Usage:</b><br>
