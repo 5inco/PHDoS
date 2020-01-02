@@ -1,5 +1,5 @@
-Kali & Termux Compatible<br>
-Requirements:<br>
+<b>Kali & Termux Compatible</b><br>
+<b>Requirements:</b><br>
 $ apt update<br>
 $ apt upgrade<br>
 $ apt install python<br>
@@ -16,12 +16,11 @@ New Terminal just type:<br>
 $ <b>nslookup victimwebsite.com<b><br>
 Get the IP Address of a victim website<br>
 
-Installation & Usage:<br>
+<b>Installation & Usage:</b><br>
 $ cd PHDoS/<br>
 $ ls<br>
 $ python3 phdos.py -s [Victim ip Address] -p 80 -t 135<br>
 example:<br>
 $ python3 phdos.py -s xx.xxx.xxx.xxx -p 80 -t 135<br>
-
-Youtube Video Tutorial: https://youtu.be/jA4Ecnm6WEk
+Video Tutorial Link: https://youtu.be/jA4Ecnm6WEk<br>
 
